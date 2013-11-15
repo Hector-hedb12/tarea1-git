@@ -111,8 +111,8 @@
           subsecuencia “DD”.
         </h3>
         <div class="answer">
-          <strong> Respuesta: </strong> XX.<br/>
-          <strong> Código: </strong> <a href="https://github.com/Hector-hedb12/tarea1-git/codigo/Scrabble.cpp" target="blank">Scrabble.cpp</a>.
+          <strong> Respuesta: </strong> Las letras que nunca aparecen repetidas son la Q y la X.<br/>
+          <strong> Código: </strong> <a href="https://github.com/Hector-hedb12/tarea1-git/codigo/scrabble.cpp" target="blank">scrabble.cpp</a>.
         </div>
       </article>
       
