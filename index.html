@@ -111,9 +111,10 @@
           subsecuencia “DD”.
         </h3>
         <div class="answer">
-          <strong> * Asumiendo que Ñ no pertenece al diccionario y que todas las letras son mayúsculas *</strong> <br/>
+          <center> <strong> * Asumiendo que Ñ no pertenece al diccionario y que todas las letras son mayúsculas *</strong> </center> <br/>
           <strong> Respuesta: </strong> Las letras que nunca aparecen repetidas de forma consecutiva son la Q y la X.<br/>
           <strong> Código: </strong> <a href="https://github.com/Hector-hedb12/tarea1-git/blob/gh-pages/codigo/scrabble.cpp" target="blank">scrabble.cpp</a>.
+          Para ejecutar: <code> $ ./scrabble < sowpods.txt </code>
         </div>
       </article>
       
@@ -124,22 +125,26 @@
           repo', 'dirty working tree' y 'merge conflict'.
         </h3>
         <div class="answer">
-          <strong> Working Directory: </strong> es una de las tres secciones principales de un proyecto git, en él se almacenan 
-          los archivos de un proyecto cuando el usuario realiza un checkout.<br/> <br/>
+          <strong> Working Directory: </strong> es uno de los tres componentes de un repositorio local, 
+          en él se almacenan los archivos de un proyecto cuando el usuario realiza un checkout.<br/> <br/>
           
           <strong> Index: </strong> también conocido como <strong> cache </strong> o <strong> staging area </strong>. 
-          Es un archivo que almacena información relacionada a lo que irá en el próximo commit, en otras palabras, es donde están 
-          los cambios realizados a un conjunto de archivos antes de que sean llevados al repositorio.<br/> <br/>
+          Es uno de los tres componentes de un repositorio local. 
+          Concretamente, es un archivo que almacena información relacionada a lo que irá en el próximo commit, 
+          es decir, es donde están los cambios realizados a un conjunto de archivos antes de que sean 
+          llevados al repositorio (con <code>git commit</code>).<br/> <br/>
           
-          <strong> Local Repo: </strong> es el repositorio que se encuentra en la computadora del usuario.<br/> <br/>
+          <strong> Local Repo: </strong> es el repositorio que se encuentra en la computadora del usuario.
+          Este contiene las diversas versiones de un proyecto <br/> <br/>
           
-          <strong> Remote Repo: </strong> son versiones de un proyecto alojadas en algún sitio de internet (o red local). 
-          Además de que se pueden tener varios de ellos, es posible establecer permisos (sólo lectura o lectura y escritura).
-          Generalmente son utilizados para la colaboración de proyectos.<br/> <br/>
+          <strong> Remote Repo: </strong> es el repositorio que tiene diversas versiones de un proyecto alojadas en algún sitio de internet 
+          (o red local). Además de que se pueden tener varios de ellos, es posible establecer permisos (de sólo lectura o de lectura y escritura).
+          Generalmente son utilizados para la colaboración en los proyectos.<br/> <br/>
           
           <strong> Dirty Working Tree: </strong> 'The Working Tree' es el conjunto de archivos con los que se esta trabajando.
-          Ahora bien, se dice que 'The Working Tree' está 'dirty' cuando un branch particular reemplazará tus archivos
-          ocasionando, posiblemente, la perdida de los cambios realizados en ellos.<br/> <br/>
+          Ahora bien, cuando se realiza checkout de un branch, estos archivos son reemplazados por los contenidos en el branch. 
+          Entonces, 'Dirty Working Tree' es la situación en la que el checkout a un branch particular reemplazará
+          los archivos en 'The Working Tree' ocasionando, posiblemente, la perdida de los cambios realizados en ellos.<br/> <br/>
           
           <strong> Merge Conflict: </strong> es un error anunciado por Git cuando no es capaz de determinar, dada dos versiones de 
           un archivo, con cuál debe quedarse. Es entonces, cuando se necesita la intervención del usuario para resolver el conflicto.
